@@ -43,7 +43,6 @@ public class dashboard extends javax.swing.JFrame {
         btnChangePw = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1193, 640));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(39, 35, 65));
@@ -82,7 +81,7 @@ public class dashboard extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Poppins", 1, 18)); // NOI18N
         jLabel6.setText("CHANGE PW");
         jLabel6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 470, -1, 20));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 470, -1, 20));
 
         btnChangePw.setIcon(new javax.swing.ImageIcon("/home/bickkysahani/NetBeansProjects/signin_signup_form/images/btn.png")); // NOI18N
         btnChangePw.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -91,7 +90,7 @@ public class dashboard extends javax.swing.JFrame {
                 btnChangePwMouseClicked(evt);
             }
         });
-        jPanel1.add(btnChangePw, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 450, 180, 60));
+        jPanel1.add(btnChangePw, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 450, 180, 60));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 1110, 580));
 
